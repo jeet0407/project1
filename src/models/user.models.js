@@ -86,6 +86,7 @@ userSchema.methods.generateToken = function () {
         }
     );
 };
+
 userSchema.methods.generateRefreshToken = function () {
     jwt.sign(
         {
