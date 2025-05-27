@@ -31,8 +31,6 @@ const userSchema = new Schema(
         avatar: {
             type: String, //cloudinary url
             required: true,
-            default:
-                "https://res.cloudinary.com/dqj0xg3zv/image/upload/v1698231234/avatars/default-avatar.png",
         },
 
         coverImage: {
